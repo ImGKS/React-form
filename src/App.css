@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Robots', sans-serif ;
+}
+
+label {
+  font-size: .7rem;
+}
+
+input.form-control, input.form-control:focus{
+  background: #f0f0ff;
+}
+
+.error, .btn-danger{
+  position: absolute;
+  color: red;
+  background-color: lightgray;
+}
