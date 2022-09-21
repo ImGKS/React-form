@@ -8,7 +8,7 @@ export const TextField = ({ label, ...props }) => {
         <div className="mb-2">
             <label htmlFor={field.name}>{label}</label>
             <input 
-            className={`form-control shadow-none ${meta.touched && meta.error && "is-valid"}`}
+            className={`form-control shadow-none ${meta.touched && meta.error && "is-invalid"}`}
             {...field}{...props}
             autoComplete="off"
             />
